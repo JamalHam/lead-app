@@ -12,7 +12,7 @@ export class Login extends Component {
 
     static propTypes = {
         login: PropTypes.func.isRequired,
-        isAuthenticated: PropTypes.bool
+        isAuthenticated: PropTypes.bool,
     };
 
     onSubmit = (e) => {
